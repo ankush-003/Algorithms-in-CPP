@@ -1,3 +1,5 @@
+// link: https://practice.geeksforgeeks.org/problems/max-triplet-sum/0
+
 #include <bits/stdc++.h>
 using namespace std;
 
