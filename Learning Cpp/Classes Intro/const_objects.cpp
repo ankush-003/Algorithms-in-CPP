@@ -3,10 +3,10 @@ using namespace std;
 
 class MyClass {
     int priv;
-    const int cinstData;
+    const int cinstData; // const instance data member, should be initialized in the constructor
     public: int pub;
     MyClass(int i) : priv(i), pub(i), cinstData(i) {}
-    MyClass() : priv(0), pub(0) {}
+    MyClass() : priv(0), pub(0), cinstData(0) {}
     int getPriv() const { return priv; }
     void setPriv(int i) { priv = i; }
     // void setConst(int i) { cinstData = i; } -> error: assignment of member 'MyClass::cinstData' in read-only object
