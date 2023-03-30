@@ -7,6 +7,7 @@ class MyClass {
     public: int pub;
     MyClass(int i) : priv(i), pub(i), cinstData(i) {}
     MyClass() : priv(0), pub(0), cinstData(0) {}
+    MyClass(const MyClass& c) : priv(c.getPriv()), pub(c.pub), cinstData(c.cinstData) {} // copy constructor
     int getPriv() const { return priv; }
     void setPriv(int i) { priv = i; }
     // void setConst(int i) { cinstData = i; } -> error: assignment of member 'MyClass::cinstData' in read-only object
