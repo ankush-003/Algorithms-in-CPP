@@ -1,0 +1,9 @@
+0x7ffc10815598
+69
+0x55c9bb16e2c0
+90
+90 B
+90
+100 A
+Destructor called
+Destructor called
