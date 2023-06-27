@@ -18,8 +18,8 @@ class Hero {
     Hero(int h, char l): level(l), health(h) {
         // health = h;
         // level = l;
-        cout << this << endl;
-        cout << this->health << endl;
+        cout << "this -> " << this << endl;
+        // cout << this->health << endl;
     }
     // copy constructor
     Hero(const Hero &h) {
@@ -60,7 +60,11 @@ int main()
 
     Hero ramesh; // constructor
     Hero *suresh = new Hero();
+    //using malloc
+    // Hero *suresh2 = (Hero *)malloc(sizeof(Hero));
+    // suresh2->print(); // garbage values
     suresh->print();
+    cout << suresh << endl;
 
     return 0;
 }
