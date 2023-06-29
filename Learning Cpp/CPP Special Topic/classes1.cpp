@@ -22,6 +22,10 @@ class Hero {
         // cout << this->health << endl;
     }
     // copy constructor
+    // Hero (Hero h) {
+    //     health = h.health;
+    //     level = h.level;
+    // } -> error because it will call itself
     Hero(const Hero &h) {
         health = h.health;
         level = h.level;
