@@ -1,30 +1,8 @@
-Default constructor called
-Destructor called
-Default constructor called
-Name: Hero 1
-Health: 69
+Time to complete: 10
+Name: Batman
 Level: A
-Address: 0x7ffe69993de0
-
-Copy constructor called
-Name: Hero 1
-Health: 69
+Health: 100
+10
+Name: Batman
 Level: A
-Address: 0x7ffe69993e00
-
-0x55feedb9d2e0
-0x55feedb9c2b0
-Name: Hero 1
-Health: 69
-Level: A
-Address: 0x7ffe69993de0
-
-Name: Hero 2
-Health: 69
-Level: A
-Address: 0x7ffe69993e00
-
-0x55feedb9d2e0
-0x55feedb9c2b0
-Destructor called
-Destructor called
+Health: 200
