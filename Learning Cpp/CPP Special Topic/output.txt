@@ -2,7 +2,3 @@ Time to complete: 10
 Name: Batman
 Level: A
 Health: 100
-10
-Name: Batman
-Level: A
-Health: 200
