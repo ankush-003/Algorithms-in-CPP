@@ -85,10 +85,52 @@ void vectors() {
     vector<int>::iterator it4 = v6.begin();
     it4++;
     v6.erase(it4, it4 + 2);
+    v6.insert(v6.begin() + 1, 2, 10);
+    // cout << "v6" << endl;
+    // for (auto x : v6) {
+    //     cout << x << " ";
+    // }
+    // cout << endl;
+    vector<int> v7 {1, 2, 3, 4, 5};
+    v7.insert(v7.begin() + 1,v6.begin(), v6.end());
+    cout << "v7" << endl;
+    for (auto x : v7) {
+        cout << x << " ";
+    }
+    cout << v.empty() << endl;
+    cout << v.size() << endl;
+    cout << v.capacity() << endl;
+
+}
+
+void lists() {
+    // front operations in lists are faster than vectors
+    list<int> l {1, 2, 3, 4, 5};
+    l.push_back(6);
+    l.push_front(0);
+    l.emplace_front(-1);
+    l.emplace_back(7);
+    for (auto x : l) {
+        cout << x << " ";
+    }
+}
+
+void dequeue() {
+    deque<int> dq;
+    dq.push_back(1);
+    dq.push_front(2);
+    dq.emplace_back(3);
+    dq.emplace_front(4);
+    cout << dq.front() << " " << dq.back() << endl;
+    for (auto x : dq) {
+        cout << x << " ";
+    }
 }
 
 int main() {
     // pairs();
-    vectors();
+    // vectors();
+    // lists();
+    dequeue();
     return 0;
 }
