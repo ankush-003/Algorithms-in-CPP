@@ -287,7 +287,7 @@ void Maps() {
 
     map<int, pair<int, int>> mpp1;
     mpp1[1] = {2, 3};
-    // mpp1.emplace(2,{3,4});
+    mpp1.emplace(2,make_pair(4,5));
     mpp1.insert({3, {4, 5}});
 
 }
