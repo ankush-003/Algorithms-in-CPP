@@ -4,7 +4,7 @@ A repository containing all the resources i'm using to learn c++ and algorithms
 
 ## DSA Grind 🔥
 
-Visit [DSA Grind Notion Site](https://ankush003.notion.site/Combination-Sum-II-577bb43be5fc4fb4a10e14ada3600475?pvs=4)
+Visit [DSA Grind Notion Site](https://ankush003.notion.site/4249f277956444e29b7bf612178dc879?v=85debb4d761e4ad0bfd5819e57fa0cbc&pvs=4)
 
 | Number | Question                                   | Tags                                       | Level   | URL                                                                                           | Platform | Date                 |
 |--------|-------------------------------------------|--------------------------------------------|---------|-----------------------------------------------------------------------------------------------|----------|----------------------|
