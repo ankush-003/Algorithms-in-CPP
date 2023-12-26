@@ -2,7 +2,7 @@
 
 Tags: Arrays, Backtracking
 Date: October 26, 2023
-Level: Revisit
+Level: Medium
 Number: 46
 Platform: Leetcode
 URL: https://leetcode.com/problems/combination-sum/

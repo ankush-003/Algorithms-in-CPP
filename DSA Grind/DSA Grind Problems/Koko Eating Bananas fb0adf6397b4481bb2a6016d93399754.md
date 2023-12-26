@@ -2,7 +2,7 @@
 
 Tags: Arrays, Binary Search
 Date: August 27, 2023
-Level: Medium
+Level: Revisit
 Number: 25
 Platform: Leetcode
 
